@@ -1,0 +1,10 @@
+| Directive   | Kaam                                   | Kab use hota hai        |
+| ----------- | -------------------------------------- | ----------------------- |
+| `@import`   | Tailwind load karna                    | start of globals.css    |
+| `@theme`    | Custom tokens create karna             | colors, font, spacing   |
+| `@layer`    | base/components/utilities override     | HTML tags styling       |
+| `@media`    | Breakpoint based CSS                   | mobile/tablet/pc UI     |
+| `@utility`  | New custom classes banana              | special utilities       |
+| `@variant`  | Hover, active, dark-type custom states | new variants create     |
+| `@supports` | CSS feature detect                     | grid, backdrop blur etc |
+| `@apply`    | Existing classes reuse karna           | DRY principle follow    |
