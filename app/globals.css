@@ -24,14 +24,18 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  
 }
 
 html, body {
-  overflow-x: hidden;
   width: 100%;
+  overflow-x: hidden;
+}
+
+/* Main yahin  pe band karna tha overflow-x hidden ka */
+.app{
+  overflow-x: hidden;
 }
 /* 
 body {
@@ -54,15 +58,19 @@ html {
   background: rgba(126, 155, 218, 0.644);
 }
 
-.main section{
-  @apply min-h-screen border-b-1 border-gray-300 flex justify-center items-center w-full ;
+.main-section{
+  @apply min-h-screen border border-gray-100 flex justify-center items-center ;
 }
 
 #about{
-  @apply bg-gray-50;
+  @apply bg-white;
 }
 
 #footer{
-  @apply max-h-100 bg-gray-500 ;
+  @apply max-h-100 bg-blue-950 ;
+}
+
+#hero{
+  @apply flex flex-col justify-center items-center;
 }
 

@@ -13,22 +13,22 @@ export default function Page() {
         <Navbar />
       </div>
       <div className="main">
-        <section id="hero">
+        <section className="main-section" id="hero">
           <Hero />
         </section>
-        <section id="about">
+        <section className="main-section" id="about">
           <About />
         </section>
-        <section id="skills">
+        <section className="main-section" id="skills">
           <Skills />
         </section>
-        <section id="projects">
+        <section className="main-section" id="projects">
           <Projects />
         </section>
-        <section id="contact">
+        <section className="main-section" id="contact">
           <Contact />
         </section>
-        <section id="footer">
+        <section className="main-section" id="footer">
           <Footer />
         </section>
       </div>

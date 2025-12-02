@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function About() {
   return (
     <section
-      id="about"
       className="
     w-full 
     h-full
@@ -14,8 +13,10 @@ export default function About() {
     justify-center 
     items-center
     px-6 md:px-20 
+    md:pt-0
     pt-10
-    bg-gradient-to-b from-white to-blue-50/20
+    
+    
   "
     >
       {/* Heading */}
@@ -73,7 +74,7 @@ export default function About() {
             Hi, I'm Abhishek Kumar Giri 👋
           </h3>
 
-          <p className="text-lg text-slate-700 mb-4 leading-relaxed">
+          <p className="text-lg text-slate-700 mb-4 leading-relaxed text-justify">
             I'm a B.Tech IT student at USICT, GGSIPU, and currently learning Full-Stack Web Development
             using the MERN stack. I enjoy turning ideas into working web applications and improving
             my skills through real-world projects.

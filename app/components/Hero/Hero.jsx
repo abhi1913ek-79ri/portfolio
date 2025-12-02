@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="pt-20 md:pt-0 h-2/3 flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-20">
+    <section className="md:pt-0 flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-20">
       {/* LEFT TEXT CONTENT */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-lg">
         <p className="text-blue-600 font-semibold tracking-wide mb-2 text-xl">
