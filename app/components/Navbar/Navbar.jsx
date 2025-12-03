@@ -55,7 +55,7 @@ function Navbar() {
               <div className="hidden md:block">
                 <Link href="/">
                   <Image
-                    src="/favicon1.svg"
+                    src="/logo.png"
                     alt="AG Logo"
                     width={50}
                     height={50}
