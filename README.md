@@ -9,7 +9,7 @@ It highlights my projects, skills, experience, and the technologies I work with 
 
 ## 📸 Portfolio Preview  
 
-![Portfolio Screenshot](./public/portfolio-preview.png)
+![Portfolio Screenshot](./public/profile-preview.png)
 
 > _(Place your screenshot inside `/public/portfolio-preview.png` or rename accordingly)_
 
