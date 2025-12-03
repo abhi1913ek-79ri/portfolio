@@ -12,11 +12,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://your-domain.com"), // ← jab deploy ho jaye, domain daal dena
+  metadataBase: new URL("https://portfolio-abhi1913ek-79ri.vercel.app"), // ← jab deploy ho jaye, domain daal dena
   
   title: {
-    default: "Abhishek Giri | MERN & Next.js Developer Portfolio",
-    template: "%s | Abhishek Giri"
+    default: "Abhishek Giri | FullStack Developer Portfolio",
+    template: "%s | Abhishek Kumar Giri"
   },
 
   description:
@@ -48,7 +48,7 @@ export const metadata = {
   manifest: "/site.webmanifest",
 
   openGraph: {
-    title: "Abhishek Giri | Full-Stack Developer Portfolio",
+    title: "Abhishek Kumar Giri | Full-Stack Developer Portfolio",
     description:
       "Modern portfolio of Abhishek Giri — MERN Stack & Next.js Developer. Explore projects, skills and connect.",
     url: "https://portfolio-abhi1913ek-79ri.vercel.app",
