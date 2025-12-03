@@ -54,13 +54,12 @@ function Navbar() {
             <Link href="/">{/* DESKTOP: Logo Left */}
               <div className="hidden md:block">
                 <Link href="/">
-                  <Image
-                    src="/logo.png"
-                    alt="AG Logo"
-                    width={50}
-                    height={50}
-                    className="drop-shadow-sm"
-                  />
+                  <p className="text-3xl font-mono font-bold">
+                    <span className="text-black">&lt;</span>
+                    <span className="text-blue-600">AG</span>
+                    <span className="text-black"> /&gt;</span>
+                  </p>
+
                 </Link>
               </div>
             </Link>
@@ -76,14 +75,13 @@ function Navbar() {
         </div>
 
         {/* MOBILE: Logo Right */}
-        <div className="md:hidden text-xl font-semibold text-blue-700">
-          <Link href="/"><Image
-                    src="/favicon1.svg"
-                    alt="AG Logo"
-                    width={50}
-                    height={50}
-                    className="drop-shadow-sm"
-                  /></Link>
+        <div className="md:hidden font-semibold text-blue-700">
+          <p className="text-2xl font-mono font-bold">
+            <span className="text-black">&lt;</span>
+            <span className="text-blue-600">AG</span>
+            <span className="text-black"> /&gt;</span>
+          </p>
+
         </div>
       </div>
 
