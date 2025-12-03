@@ -4,6 +4,7 @@ import Hamburger from "@/app/ui/Hamburger";
 import React, { useEffect } from "react";
 import { X } from "lucide-react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 function Navbar() {
   const [open, setOpen] = React.useState(false);
@@ -25,10 +26,9 @@ function Navbar() {
         className={`
           px-4 py-1 rounded-xl text-[15px]
           transition-all duration-200
-          ${
-            isActive
-              ? "bg-blue-600 text-white shadow-[0_4px_12px_rgba(37,99,235,0.35)]"
-              : "bg-[#f3f4f6] text-slate-900 hover:shadow-[0_3px_8px_rgba(0,0,0,0.12)] hover:bg-white"
+          ${isActive
+            ? "bg-blue-600 text-white shadow-[0_4px_12px_rgba(37,99,235,0.35)]"
+            : "bg-[#f3f4f6] text-slate-900 hover:shadow-[0_3px_8px_rgba(0,0,0,0.12)] hover:bg-white"
           }
         `}
       >
@@ -51,7 +51,19 @@ function Navbar() {
 
           {/* DESKTOP: Logo Left */}
           <div className="hidden md:block text-2xl font-semibold text-blue-700 tracking-tight drop-shadow-sm">
-            <Link href="/">AG</Link>
+            <Link href="/">{/* DESKTOP: Logo Left */}
+              <div className="hidden md:block">
+                <Link href="/">
+                  <Image
+                    src="/favicon1.svg"
+                    alt="AG Logo"
+                    width={50}
+                    height={50}
+                    className="drop-shadow-sm"
+                  />
+                </Link>
+              </div>
+            </Link>
           </div>
         </div>
 
@@ -65,7 +77,13 @@ function Navbar() {
 
         {/* MOBILE: Logo Right */}
         <div className="md:hidden text-xl font-semibold text-blue-700">
-          <Link href="/">AG</Link>
+          <Link href="/"><Image
+                    src="/favicon1.svg"
+                    alt="AG Logo"
+                    width={50}
+                    height={50}
+                    className="drop-shadow-sm"
+                  /></Link>
         </div>
       </div>
 

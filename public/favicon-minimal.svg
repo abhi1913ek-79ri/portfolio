@@ -1,0 +1,10 @@
+<!-- save as public/favicon-code.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="AG code logo">
+  <rect width="100" height="100" rx="18" fill="#071740"/>
+  <!-- left bracket -->
+  <polyline points="30,25 18,50 30,75" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- right bracket -->
+  <polyline points="70,25 82,50 70,75" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- AG -->
+  <text x="50" y="60" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="30" fill="#e6f6ff">AG</text>
+</svg>
