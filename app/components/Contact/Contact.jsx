@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
-import { Copy, Mail, Github, Linkedin } from "lucide-react";
+import { Copy, Mail, Github, Linkedin , Instagram } from "lucide-react";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -107,11 +107,14 @@ export default function Contact() {
           </div>
 
           <div className="mt-4 flex gap-3">
-            <a href="https://github.com/yourusername" target="_blank" className="p-2 rounded-lg bg-slate-100">
+            <a href="https://github.com/abhi1913ek-79ri" target="_blank" className="p-2 rounded-lg bg-slate-100">
               <Github size={18} />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" className="p-2 rounded-lg bg-slate-100">
+            <a href="https://www.linkedin.com/in/abhishek-kumar-giri-abhi1913ek-79ri/" target="_blank" className="p-2 rounded-lg bg-slate-100">
               <Linkedin size={18} />
+            </a>
+            <a href="https://www.instagram.com/abhi1913ek_79ri/" target="_blank" className="p-2 rounded-lg bg-slate-100">
+              <Instagram size={18} />
             </a>
           </div>
         </motion.div>

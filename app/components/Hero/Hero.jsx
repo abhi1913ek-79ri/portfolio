@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="md:pt-0 flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-20">
+    <section className="md:pt-0 pt-24 flex flex-col md:flex-row justify-center items-center gap-10 px-6 md:px-20">
       {/* LEFT TEXT CONTENT */}
       <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-lg">
         <p className="text-blue-600 font-semibold tracking-wide mb-2 text-xl">
@@ -56,10 +56,10 @@ export default function Hero() {
 
       {/* RIGHT IMAGE */}
       {/* Image + Blob Wrapper */}
-      <div className="relative flex items-center justify-center w-64 h-64 md:w-80 md:h-80 mx-auto">
+      <div className="relative flex items-center justify-center max-md:w-85 max-md:h-85 md:w-80 h-96 md:h-96 -inset-x-4 md:-inset-x-0">
 
         {/* Soft glow */}
-        <div className="absolute -inset-6 bg-blue-500/20 blur-3xl rounded-full"></div>
+        <div className="absolute -inset-6 bg-blue-500/10 blur-3xl rounded-full"></div>
 
         {/* BLUE BLOB SHAPE */}
         <svg

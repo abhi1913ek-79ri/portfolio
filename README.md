@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Abhishek Kumar Giri — Developer Portfolio
 
-## Getting Started
+Welcome to my personal developer portfolio!  
+This website represents my journey as a **B.Tech IT student at USICT, GGSIPU**, and an aspiring **Full-Stack Web Developer (MERN)** exploring **AI/ML**.
 
-First, run the development server:
+It highlights my projects, skills, experience, and the technologies I work with — all wrapped in a clean, modern, animated UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Portfolio Preview  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Portfolio Screenshot](./public/portfolio-preview.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> _(Place your screenshot inside `/public/portfolio-preview.png` or rename accordingly)_
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Live Demo  
+🔗 **Coming Soon…** _(Will be deployed on Vercel later)_
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 **GitHub Repository:** https://github.com/abhi1913ek-79ri  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ⭐ Beautiful Modern UI  
+- Smooth transitions using **Framer Motion**  
+- Animated Blob Profile Image  
+- Typewriter Effect in Hero Section  
+- Clean typography + gradient design  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ⭐ Responsive Design  
+Works flawlessly on **mobile, tablet, and desktop**.
+
+### ⭐ Fully Structured Sections  
+- **Hero:** Intro + Call-To-Actions  
+- **About:** Story + Education  
+- **Skills:** Categorized skills with badges & progress bars  
+- **Projects:** Cards with previews & GitHub links  
+- **Contact:** EmailJS-powered contact form  
+
+### ⭐ Integrated Contact Form  
+Visitors can send messages directly to your Gmail using **EmailJS**.
+
+---
+
+## 🧠 Tech Stack
+
+### **Frontend**
+- React.js  
+- Next.js  
+- Tailwind CSS  
+- Framer Motion  
+- Typewriter.js  
+
+### **Backend**
+- Node.js  
+- Express.js  
+
+### **Databases**
+- MongoDB  
+- MySQL  
+- SQLite  
+
+### **Programming**
+- C++  
+- C  
+- Python  
+
+### **Fundamentals**
+- DBMS  
+- OOP (C++)  
+- DSA  
+
+### **Tools**
+- Git  
+- GitHub  
+- VS Code  
+- Figma  
+- Canva  
+
+---
+
+## 📂 Project Structure
+root/
+│
+├── public/
+│ ├── favicon.ico
+│ ├── profile.png
+│ ├── portfolio-preview.png ← (your screenshot here)
+│
+├── app/
+│ ├── components/
+│ │ ├── Hero.jsx
+│ │ ├── About.jsx
+│ │ ├── Skills.jsx
+│ │ ├── Projects.jsx
+│ │ ├── Contact.jsx
+│ │
+│ ├── globals.css
+│ ├── layout.jsx
+│ ├── page.jsx
+│
+├── package.json
+├── tailwind.config.js
+├── README.md
+
+
+---
+
+## 📬 Contact Me
+
+📧 **Email:** ag1161534@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/abhishek-kumar-giri-abhi1913ek-79ri/  
+🐙 **GitHub:** https://github.com/abhi1913ek-79ri  
+
+Feel free to reach out for collaborations, internships, or project work!
+
+---
+
+## 💡 Future Enhancements  
+- Add blog section  
+- Add admin dashboard for updating portfolio content  
+- Add dark mode  
+- Add animations to project cards  
+- Add project filtering system  
+
+---
+
+## 🏆 Author
+
+**Abhishek Kumar Giri (Golu)**  
+B.Tech (Information Technology), USICT – GGSIPU  
+Full-Stack Developer in Training | AI/ML Learner  
+
+---
+
+## ⭐ Support  
+If you like this portfolio, please ⭐ star the repo —  
+Your support motivates me to build more cool projects! 🚀

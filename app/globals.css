@@ -48,7 +48,7 @@ html{
   @apply scroll-smooth;
 }
 html {
-  scroll-padding-top: 96px;
+  scroll-padding-top: 20px;
   scroll-behavior: smooth;
 }
 
@@ -58,7 +58,7 @@ html {
   background: rgba(126, 155, 218, 0.644);
 }
 
-.main-section{
+.main-section {
   @apply min-h-screen border border-gray-100 flex justify-center items-center ;
 }
 
@@ -66,11 +66,15 @@ html {
   @apply bg-white;
 }
 
-#footer{
+/* #footer{
   @apply max-h-100 bg-blue-950 ;
-}
+} */
 
 #hero{
   @apply flex flex-col justify-center items-center;
 }
 
+[id] {
+  scroll-margin-top: 0vh;
+  /* scroll-margin-bottom: 50vh; */
+}

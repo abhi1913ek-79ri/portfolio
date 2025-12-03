@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import TopButton from "./ui/TopButton";
 
 export default function Page() {
   return (
@@ -28,9 +29,11 @@ export default function Page() {
         <section className="main-section" id="contact">
           <Contact />
         </section>
-        <section className="main-section" id="footer">
+        <section className="footer" id="footer">
           <Footer />
         </section>
+
+        <TopButton />
       </div>
     </div>
   )

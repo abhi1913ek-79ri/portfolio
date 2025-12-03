@@ -14,7 +14,7 @@ export default function About() {
     items-center
     px-6 md:px-20 
     md:pt-0
-    pt-10
+    py-20
     
     
   "
@@ -25,6 +25,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
         className="text-4xl font-bold text-slate-900 text-center mb-12"
+        id="about"
       >
         About <span className="text-blue-600">Me</span>
       </motion.h2>
