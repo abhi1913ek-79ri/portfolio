@@ -77,12 +77,13 @@ function Navbar() {
 
         {/* MOBILE: Logo Right */}
         <div className="md:hidden font-semibold text-blue-700">
-          <p className="text-2xl font-mono font-bold">
-            <span className="text-black">&lt;</span>
-            <span className="text-blue-600">AG</span>
-            <span className="text-black"> /&gt;</span>
-          </p>
-
+          <Link href="/">
+            <p className="text-2xl font-mono font-bold">
+              <span className="text-black">&lt;</span>
+              <span className="text-blue-600">AG</span>
+              <span className="text-black"> /&gt;</span>
+            </p>
+          </Link>
         </div>
       </div>
 
