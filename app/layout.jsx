@@ -55,7 +55,7 @@ export const metadata = {
     siteName: "Abhishek Giri Portfolio",
     images: [
       {
-        url: "/og-image.png", // bana ke daal dena, 1200x630 recommended
+        url: "/og-image.jpg", // bana ke daal dena, 1200x630 recommended
         width: 1200,
         height: 630,
         alt: "Abhishek Giri Portfolio Preview",
@@ -70,7 +70,7 @@ export const metadata = {
     title: "Abhishek Giri | MERN & Next.js Developer",
     description:
       "Explore the interactive portfolio of Abhishek Giri — MERN Stack Developer and AI/ML Learner.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
   },
 };
 
