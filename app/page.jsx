@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import TopButton from "./ui/TopButton";
+import Certificates from "./components/certification/certificate";
 
 export default function Page() {
   return (
@@ -26,9 +27,13 @@ export default function Page() {
         <section className="main-section" id="projects">
           <Projects />
         </section>
+        <section className="main-section" id="certificate">
+          <Certificates />
+        </section>
         <section className="main-section" id="contact">
           <Contact />
         </section>
+        
         <section className="footer" id="footer">
           <Footer />
         </section>
