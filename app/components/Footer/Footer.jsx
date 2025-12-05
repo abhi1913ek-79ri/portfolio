@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full bg-gradient-to-b from-white via-blue-50/20 to-blue-100/40 pt-20 pb-10 mt-20 overflow-hidden">
+    <footer className="relative w-full bg-gradient-to-b from-white via-blue-50/20 to-blue-100/40 pt-20 pb-10 overflow-hidden">
 
       {/* BACKGROUND WAVES */}
       <div className="absolute inset-0 opacity-30 pointer-events-none">

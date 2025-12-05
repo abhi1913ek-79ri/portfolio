@@ -71,6 +71,7 @@ function Navbar() {
           <NavItem href="#about" label="About" />
           <NavItem href="#skills" label="Skills" />
           <NavItem href="#projects" label="Projects" />
+          <NavItem href="#certificate" label="Certificates" />
           <NavItem href="#contact" label="Contact" />
         </div>
 
@@ -107,6 +108,7 @@ function Navbar() {
           <Link href="#about" onClick={() => setOpen(false)}>About</Link>
           <Link href="#skills" onClick={() => setOpen(false)}>Skills</Link>
           <Link href="#projects" onClick={() => setOpen(false)}>Projects</Link>
+          <Link href="#certificate" onClick={() => setOpen(false)}>Certificates</Link>
           <Link href="#contact" onClick={() => setOpen(false)}>Contact</Link>
         </div>
       </div>
