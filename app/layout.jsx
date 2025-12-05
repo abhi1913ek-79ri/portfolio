@@ -23,7 +23,7 @@ export const metadata = {
     "Portfolio of Abhishek Giri — MERN Stack Developer, React & Next.js Specialist, and AI/ML Enthusiast. Explore projects, skills, and contact details.",
 
   keywords: [
-    "Abhishek Giri",
+    "Abhishek Kumar Giri",
     "MERN Developer",
     "Full Stack Developer",
     "Next.js Developer",
@@ -34,7 +34,7 @@ export const metadata = {
   ],
 
   authors: [{ name: "Abhishek Kumar Giri" }],
-  creator: "Abhishek Giri",
+  creator: "Abhishek Kumar Giri",
 
   icons: {
     icon: [
@@ -55,7 +55,7 @@ export const metadata = {
     siteName: "Abhishek Giri Portfolio",
     images: [
       {
-        url: "/og-image.jpg", // bana ke daal dena, 1200x630 recommended
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Abhishek Giri Portfolio Preview",
@@ -67,9 +67,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Abhishek Giri | MERN & Next.js Developer",
+    title: "Abhishek Kumar Giri | Full-stack Developer",
     description:
-      "Explore the interactive portfolio of Abhishek Giri — MERN Stack Developer and AI/ML Learner.",
+      "Explore the interactive portfolio of Abhishek Kumar Giri — MERN Stack Developer and AI/ML Learner.",
     images: ["/og-image.jpg"],
   },
 };
