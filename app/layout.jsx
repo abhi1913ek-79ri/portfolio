@@ -15,12 +15,12 @@ export const metadata = {
   metadataBase: new URL("https://portfolio-abhi1913ek-79ri.vercel.app"), // ← jab deploy ho jaye, domain daal dena
   
   title: {
-    default: "Abhishek Giri | FullStack Developer Portfolio",
+    default: "Abhishek Kumar Giri | FullStack Developer Portfolio",
     template: "%s | Abhishek Kumar Giri"
   },
 
   description:
-    "Portfolio of Abhishek Giri — MERN Stack Developer, React & Next.js Specialist, and AI/ML Enthusiast. Explore projects, skills, and contact details.",
+    "Portfolio of Abhishek Kumar Giri — MERN Stack Developer, React & Next.js Specialist, and AI/ML Enthusiast. Explore projects, skills, and contact details.",
 
   keywords: [
     "Abhishek Kumar Giri",

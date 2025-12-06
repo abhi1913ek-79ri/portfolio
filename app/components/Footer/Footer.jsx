@@ -81,6 +81,7 @@ export default function Footer() {
               { label: "About", href: "#about" },
               { label: "Skills", href: "#skills" },
               { label: "Projects", href: "#projects" },
+              { label: "Certificates", href: "#certificate" },
               { label: "Contact", href: "#contact" },
             ].map((item) => (
               <motion.a
