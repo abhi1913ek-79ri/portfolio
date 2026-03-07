@@ -35,21 +35,32 @@ export default function Hero() {
             }}
           />
         </div>
-
         {/* BUTTONS */}
-        <div className="mt-10 flex gap-6">
-          <Link
-            href="#projects"
-            className="px-6 py-3 rounded-xl bg-blue-600 text-white font-medium shadow-lg hover:scale-105 transition-transform"
-          >
-            View Projects
-          </Link>
+        <div className="flex flex-col">
+          <div className="mt-10 flex items-center gap-6">
 
+            <Link
+              href="#projects"
+              className="px-6 py-3 rounded-xl bg-blue-600 text-white font-medium shadow-lg hover:scale-105 transition-transform"
+            >
+              View Projects
+            </Link>
+
+            <a
+              href="/Abhishek_Kumar_Giri_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-xl bg-white text-blue-600 font-medium shadow-lg hover:scale-105 transition-transform border border-gray-200"
+            >
+              View Resume
+            </a>
+            <br />
+          </div>
           <Link
             href="#contact"
-            className="px-6 py-3 rounded-xl bg-white border border-slate-300 text-slate-900 shadow hover:bg-slate-100 transition"
+            className="text-blue-600 text-sm  hover:underline mt-2 ml-1.5"
           >
-            Contact Me
+            Contact Me →
           </Link>
         </div>
       </div>
