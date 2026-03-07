@@ -47,7 +47,7 @@ export default function Hero() {
             </Link>
 
             <a
-              href="/Abhishek_Kumar_Giri_Resume.pdf"
+              href="/ABHISHEK_KUMAR_GIRI_RESUME.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-xl bg-white text-blue-600 font-medium shadow-lg hover:scale-105 transition-transform border border-gray-200"
