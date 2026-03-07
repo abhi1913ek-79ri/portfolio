@@ -58,7 +58,7 @@ export default function Hero() {
           </div>
           <Link
             href="#contact"
-            className="text-blue-600 text-sm  hover:underline mt-2 ml-1.5"
+            className="text-blue-600 text-sm md:hidden  hover:underline mt-2 ml-1.5"
           >
             Contact Me →
           </Link>
