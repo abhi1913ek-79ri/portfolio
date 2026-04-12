@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
-import { Copy, Mail, Github, Linkedin , Instagram } from "lucide-react";
+import { Copy, Mail, Github, Linkedin, Instagram ,Leetcode} from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
 import emailjs from "emailjs-com";
 
 export default function Contact() {
@@ -113,9 +114,17 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/abhishek-kumar-giri-abhi1913ek-79ri/" target="_blank" className="p-2 rounded-lg bg-slate-100">
               <Linkedin size={18} />
             </a>
+            <a
+              href="https://leetcode.com/u/abhi1913ek_79ri/"
+              target="_blank"
+              className="p-2 rounded-lg bg-slate-100"
+            >
+              <SiLeetcode size={18} />
+            </a>
             <a href="https://www.instagram.com/abhi1913ek_79ri/" target="_blank" className="p-2 rounded-lg bg-slate-100">
               <Instagram size={18} />
             </a>
+
           </div>
         </motion.div>
 
@@ -133,9 +142,8 @@ export default function Contact() {
               <label className="text-sm font-medium text-slate-700">Name</label>
               <input
                 {...register("name", { required: true })}
-                className={`mt-1 w-full px-3 py-2 rounded-lg border ${
-                  errors.name ? "border-red-400" : "border-slate-200"
-                }`}
+                className={`mt-1 w-full px-3 py-2 rounded-lg border ${errors.name ? "border-red-400" : "border-slate-200"
+                  }`}
                 placeholder="Your name"
               />
             </div>
@@ -144,9 +152,8 @@ export default function Contact() {
               <label className="text-sm font-medium text-slate-700">Email</label>
               <input
                 {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/ })}
-                className={`mt-1 w-full px-3 py-2 rounded-lg border ${
-                  errors.email ? "border-red-400" : "border-slate-200"
-                }`}
+                className={`mt-1 w-full px-3 py-2 rounded-lg border ${errors.email ? "border-red-400" : "border-slate-200"
+                  }`}
                 placeholder="you@example.com"
               />
             </div>

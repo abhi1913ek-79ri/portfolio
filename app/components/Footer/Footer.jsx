@@ -2,6 +2,8 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
+import { SiLeetcode } from "react-icons/si";
+
 
 export default function Footer() {
   return (
@@ -45,6 +47,14 @@ export default function Footer() {
               className="p-2 rounded-full bg-white/60 backdrop-blur border border-blue-200 shadow hover:shadow-blue-300 hover:bg-blue-600 hover:text-white transition"
             >
               <Github size={22} />
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.15 }}
+              href="https://leetcode.com/u/abhi1913ek_79ri/"
+              target="_blank"
+              className="p-2 rounded-full bg-white/60 backdrop-blur border border-yellow-200 shadow hover:shadow-yellow-300 hover:bg-yellow-500 hover:text-white transition"
+            >
+              <SiLeetcode size={22} />
             </motion.a>
 
             <motion.a

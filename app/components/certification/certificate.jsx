@@ -4,6 +4,13 @@ import { Award, ExternalLink } from "lucide-react";
 
 const certificates = [
     {
+        title: "Artificial Intelligence – Certificate of Completion",
+        org: "Samsung Innovation Campus (Telecom Sector Skill Council)",
+        year: "Dec 2025 – Mar 2026",
+        desc: "Successfully completed Artificial Intelligence course under Samsung Innovation Campus, covering core AI concepts and applications.",
+        link: "https://drive.google.com/file/d/1LGWQwmNwJExp_M6EPD-2ctejpKNlSpvX/view?usp=drive_link",
+    },
+    {
         title: "Software Engineering Virtual Experience",
         org: "JPMorgan Chase & Co. (Forage)",
         year: "Nov 2025",
